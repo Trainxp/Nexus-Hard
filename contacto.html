@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="seccion de productos, donde vas a poder ver nuestro amplio catalogo en hardware e insumos de informatica" >
+    <meta name="keywords" content="tienda online, hardware, envios, PC gamer, productos, ML, insumos,mother ,procesardor ,placas de video, sonido, teclados " >
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script defer src="modal.js"></script>
+</head>
+<body>
+    <header>
+        <section class="top" > <img src="/img/marcas.jpeg" alt="marcas"> </section>
+        <section class="header" >
+            <a href="index.html"><h1 id="titulo" class="titulo">NEXUS</h1></a>
+            <h2>Tu tienda de Informatica</h2>
+            <h5>Av. Corrientes 860, CABA</h5>
+            <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+        </section>
+        
+       
+        <a href="contacto.html"> <h3 class="contacto" >CONTACTO</h3></a>
+    </header>
+    
+    <HR></HR>
+    
+    <main>
+        <div class="mainConteiner" >
+
+            
+
+            <div>
+               
+                    <h2 class="h2-contacto" >Contacto</h2>
+                    <form >
+                        <label for="nombre">Nombre:</label>
+                        <input placeholder="ingrese su nombre" type="text" id="nombre" name="nombre" required>
+                        
+                        <label for="email">Email:</label>
+                        <input placeholder="ingrese su mail" type="email" id="email" name="email" required>
+                        
+                        <label for="comentario">Comentario:</label>
+                        <textarea placeholder="ingrese un comentario" id="comentario" name="comentario" rows="6" required></textarea>
+                        
+                        <button class="boton-form" type="submit">Enviar</button>
+                    </form>
+
+            </div>
+            <div class="div-iframe" >
+                <h4>Donde encontrarnos:</h4>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6565.953462511479!2d-58.44549671171184!3d-34.63003173067384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sar!4v1731532145799!5m2!1sen!2sar" width="499" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+            </div>
+        </div>
+        
+    </main>
+
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+               
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <p class="precioProducto">Precio total US$D: $<span id="precioTotalDolar">0</span></p>
+            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+            <button id="comprar-carrito2" class="boton-agregar2">Comprar</button>
+        </div>
+    </div>
+
+
+
+    <footer >
+
+        <p class="letraFooter" >Redes sociales</p>
+        <div><span class="letraFooter2"  >facebook</span> <a href="www.facebook.com"><img  src="img/facebook-logo-0.png  " alt="imagen de facebook"> </a>  </div>  
+        
+        <div><span class="letraFooter2" >instagram</span> <a href="www.instagram.com">  <img  src="img/icons8-instagram-48.png"   alt="imagen de instagram">           </a>     </div>
+
+
+        <p>todos los derechos reservados®</p>
+        <section class="topSection" >Hecho por Nahuel Enriquez</section>
+    </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+</body>
+</html>

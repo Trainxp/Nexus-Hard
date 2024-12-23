@@ -1,0 +1,41 @@
+ [
+   
+    {"id": 1, "nombre": "Ryzen 9 5950x",  "tipo": "procesador", "cantidad": 1, "desc": "procesador 16 nucleos", "precio": 34000, "marca": "AMD", "img": "./img/RENDERRYZEN95950X.jpg"},
+    {"id": 2, "nombre": "Ryzen 7 5800X",  "tipo": "procesador", "cantidad": 1, "desc": "procesador 12 nucleos", "precio": 61100, "marca": "AMD", "img": "./img/RENDERRYZEN75800X.jpg"},
+    {"id": 3, "nombre": "Ryzen 5 5600x ", "tipo": "procesador", "cantidad": 1, "desc": "procesador 6 nucleos", "precio": 31200, "marca": "AMD", "img": "./img/RENDERRYZEN55600X.jpg"},
+    {"id": 4, "nombre": "Ryzen 5 3600 ", "tipo": "procesador", "cantidad": 1, "desc": "procesador 6 nucleos", "precio": 31400, "marca": "AMD", "img": "./img/RENDERRYZEN53600.jpg"},
+    {"id": 5, "nombre": "Intel i9 12900k", "tipo": "procesador", "cantidad": 1, "desc": "procesador 12 nucleos", "precio": 91200, "marca": "INTEL", "img": "./img/RENDERINTELi912900K.jpg"},
+    {"id": 6, "nombre": "Intel i3 10200", "tipo": "procesador", "cantidad": 1, "desc": "procesador 6 nucleos", "precio": 21500, "marca": "INTEL", "img": "./img/RENDERINTELi310200.jpg"},
+    {"id": 7, "nombre": "Intel i5 10400", "tipo": "procesador", "cantidad": 1, "desc": "procesador 6 nucleos", "precio": 51500, "marca": "INTEL", "img": "./img/RENDERINTELi510400.jpg"},
+    {"id": 8, "nombre": "Intel i7 10700", "tipo": "procesador", "cantidad": 1, "desc": "procesador 8 nucleos", "precio": 41500, "marca": "INTEL", "img": "./img/RENDERINTELi710700.jpg"},
+    {"id": 9, "nombre": "M Asus prime A320 M ", "tipo": "mother", "cantidad": 1, "desc": "mother am4", "precio": 8200, "marca": "ASUS", "img": "./img/RENDERASUSPRIMEA320.jpg"},
+    {"id": 10, "nombre": "M Asrock A320M", "tipo": "mother", "cantidad": 1, "desc": "Mother am4", "precio": 7600, "marca": "ASROCK", "img": "./img/RENDERASROCKA320.jpg"},
+    {"id": 11, "nombre": "M MSI MPG X570S EDGE", "tipo": "mother", "cantidad": 1, "desc": "Mother am4", "precio": 51500, "marca": "MSI", "img": "./img/RENDERMSIMPG.jpg"},
+    {"id": 12, "nombre": "M Gigabyte B450 M", "tipo": "mother", "cantidad": 1, "desc": "Mother am4", "precio": 12200, "marca": "GIGABYTE", "img": "./img/RENDERGIGABYTEB450H.jpg"},
+    {"id": 13, "nombre": "M MSI H310 M", "tipo": "mother", "cantidad": 1, "desc": "Mother Intel 1151", "precio": 8700, "marca": "MSI", "img": "./img/RENDERMSIH310M.jpg"},
+    {"id": 14, "nombre": "M GIGABYTE Z590", "tipo": "mother", "cantidad": 1, "desc": "Mother Intel 1200", "precio": 33700, "marca": "GIGABYTE", "img": "./img/RENDERGIGABUTEZ590.jpg"},
+    {"id": 15, "nombre": "M GIGABYTE Z590M", "tipo": "mother", "cantidad": 1, "desc": "Mother Intel 1200", "precio": 38200, "marca": "GIGABYTE", "img": "./img/RENDERGIGABYTEZ590M.jpg"},
+    {"id": 16, "nombre": "M MSI B560M", "tipo": "mother", "cantidad": 1, "desc": "Mother Intel 1200", "precio": 15700, "marca": "MSI", "img": "./img/RENDERMSIB560M.jpg"},
+    {"id": 17, "nombre": "RAM ADATA 8GB", "tipo": "ram", "cantidad": 1, "desc": "DDR4 2666 mhz", "precio": 5590, "marca": "ADATA", "img": "./img/RENDERADATA2666.jpg"},
+    {"id": 18, "nombre": "RAM PATRIOT VIPER 8GB", "tipo": "ram", "cantidad": 1, "desc": "DDR4 3000 mhz", "precio": 6200, "marca": "PATRIOT", "img": "./img/RENDERPATRIOT3000.jpg"},
+    {"id": 19, "nombre": "RAM GEIL 8GB", "tipo": "ram", "cantidad": 1, "desc": "EVO POTENZA RED DDR4 3000 mhz", "precio": 5999, "marca": "GEIL", "img": "./img/RENDERGEIL3000.jpg"},
+    {"id": 20, "nombre": "RAM GEIL 16GB", "tipo": "ram", "cantidad": 1, "desc": "EVO POTENZA BLACK DDR4 3000 mhz", "precio": 8700, "marca": "GEIL", "img": "./img/RENDERGEILBLACK3000.jpg"},
+    {"id": 21, "nombre": "RAM ADATA 16GB (2*8gb) Xtreme", "tipo": "ram", "cantidad": 1, "desc": "DDR4 5000 mhz CL19", "precio": 111590, "marca": "ADATA", "img": "./img/RENDERADATAX2.jpg"},
+    {"id": 22, "nombre": "RAM DELTA 16GB (2*8gb) T-Force", "tipo": "ram", "cantidad": 1, "desc": "DDR5 6400 mhz", "precio": 72000, "marca": "TEAM", "img": "./img/RENDERTEAMDDR532.jpg"},
+    {"id": 23, "nombre": "RAM TEAM 32GB T-Force Black ", "tipo": "ram", "cantidad": 1, "desc": "DDR4 3600 mhz CL18 ", "precio": 20530, "marca": "TEAM", "img": "./img/RENDERTEAM32TFORCE.jpg"},
+    {"id": 24, "nombre": "RAM TEAM 32GB T-Force White", "tipo": "ram", "cantidad": 1, "desc": "DDR4 3600 mhz CL18", "precio": 20530, "marca": "TEAM", "img": "./img/RENDERTEAMTFORCE32.jpg"},
+    {"id": 25, "nombre": "ASUS Geforce RTX 3090", "tipo": "placa de video", "cantidad": 1, "desc": "RTX 3090 24GB GDDR6X", "precio": 503500, "marca": "NVIDIA/ASUS", "img": "./img/RENDERRTX3090.jpg"},
+    {"id": 26, "nombre": "MSI GeForce RTX 3080TI", "tipo": "placa de video", "cantidad": 1, "desc": "RTX 3080 Ti 12GB GDDR6X", "precio": 305000, "marca": "NVIDA/MSI", "img": "./img/RENDERRTX3080TI.jpg"},
+    {"id": 27, "nombre": "MSI GeForce RTX 3060TI ", "tipo": "placa de video", "cantidad": 1, "desc": "RTX 3060 Ti 8GB GDDR6 ", "precio": 141000, "marca": "NVIDIA/MSI", "img": "./img/RENDER3060TI.jpg"},
+    {"id": 28, "nombre": "PNY QUADRO RTX 4000 8GB", "tipo": "placa de video", "cantidad": 1, "desc": "Quadro RTX 4000 8GB GDDR6", "precio": 11000, "marca": "NVIDIA/PYN", "img": "./img/RENDERQUADRO.jpg"},
+    {"id": 25, "nombre": "XFX RADEON RX 6900XT", "tipo": "placa de video", "cantidad": 1, "desc": "XFX RADEON 6900XT 16 GB GDDR6X", "precio": 215000, "marca": "RADEON/XFX", "img": "./img/RENDERRX6900XTXFX.jpg"},
+    {"id": 26, "nombre": "ASROCK RADEON 5700XT ", "tipo": "placa de video", "cantidad": 1, "desc": "ASROCK RADEON 5700XT 8 GB GDDR6X", "precio": 204590, "marca": "RADEON/ASROCK", "img": "./img/RENDERRX5700XTASROCK.jpg"},
+    {"id": 27, "nombre": "ASUS RADEON RX 6800XT ", "tipo": "placa de video", "cantidad": 1, "desc": "ASUS RADEON 6800XT 16 GB GDDR6X ", "precio": 195000, "marca": "RADEON/ASUS", "img": "./img/RENDERRX6800XTASUS.jpg"},
+    {"id": 28, "nombre": "ASROCK RADEON 6800XT", "tipo": "placa de video", "cantidad": 1, "desc": "ASROCK RADEON 6800XT 16 GB GDDR6X", "precio": 179000, "marca": "RADEON/ASROCK", "img": "./img/RENDERRX6800XTASROCKPHANTOM.jpg"}
+    
+
+
+
+
+
+]
