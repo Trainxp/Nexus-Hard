@@ -189,12 +189,12 @@ const actualizarCarrito = () => {
    
     contadorCarrito.innerText = carrito.length
     
-    console.log(carrito)
+    
     precioTotal.innerText = carrito.reduce((acc, prod) => acc + prod.cantidad * prod.precio, 0)
     
     let precioTotal2 = carrito.reduce((acc, prod) => acc + prod.cantidad * prod.precio, 0)
 
-    console.log(precioTotal2)
+    
 
     fetch('https://dolarapi.com/v1/dolares/blue')
     .then(response => response.json())
